@@ -11,10 +11,10 @@ def index():
         model = joblib.load("predictDBS")
         pred = model.predict([[float(rates)]])
 
-        try:
-            s ="Our predict DBS price is: "+str(pred[0][0])
-        except:
-            s ="Something went wrong in prediction"
+#       try:
+#           s ="Our predict DBS price is: "+str(pred[0][0])
+#       except:
+#           s ="Something went wrong in prediction"
 
      
        
